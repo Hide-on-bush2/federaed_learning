@@ -53,17 +53,6 @@ Partical Device Participation下全局模型的更新：
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gjb4acwu25j31ds0doaei.jpg)
 
-## 步长衰减
-
-论文支持，学习率的下降对于非IID环境下FedAvg的效果直观重要，他们提出了下面一条定理：
-
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gjb4espxesj31ga0bujum.jpg)
-
-除此之外，还有一些关于步长对于FedAvg收敛效果的讨论：
-
-* 定理1告诉我们，当$E > 1$并且学习步长递减的时候，FedAvg会逐渐收敛到最优
-* 定理4告诉我们，当$E > 1$并且学习步长固定的时候，FedAvg不会收敛到最优
-
 
 ## 证明
 
